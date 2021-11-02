@@ -24,20 +24,54 @@
     justify-content: center;
 }
 .social-logos {
-  
+    
     position: relative; 
     top: -35px;
    margin-right: 4em;
     justify-content: right;
     text-align: right;
 }
-
+.social-logos i {
+    justify-content: space-between;
+    color: #2bAAEC;
+}
 
 
 
 .social-logos i:hover {
     cursor: pointer;
-    color: coral;
+    color: #25E6C8;
+}
+
+.main-menu {
+    
+    
+    margin:3em;
+    
+    display: block;
+}
+.list {
+    
+    display: block;
+    justify-content: right;
+    color: black;
+    text-align: right;
+}
+.list ul {
+    font-size: 1.5rem;
+    list-style-type: none;
+    position: relative; 
+    top: -65px;
+    display: flex;
+    text-align: right;
+    justify-content: right;
+}
+.list li {
+    margin: 10px;
+}
+.list li:hover {
+    cursor: pointer;
+    color: #25E6C8;
 }
 
 
@@ -46,8 +80,14 @@
 
 
 
-/* 
+
+
 @media screen and (max-width: 760px) {
+
+    .top-menu {
+        border: none;
+    }
+
 .social-logos {
     display: none;
 }
@@ -55,12 +95,19 @@
     display: none;
 }
 .list  {
+    padding-top: 4.5em;
+    display: block;
     justify-content: space-between;
     text-align: center;
 }
+.list li:hover{
+    cursor: pointer;
+    color: #25E6C8;
+}
 .logo {
+    display: block;
     text-align: center;
     margin-top: 2em;
 }
 }
-     */
+    
