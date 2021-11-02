@@ -73,7 +73,43 @@
     cursor: pointer;
     color: #25E6C8;
 }
+.showcase {
+display: flex;
+background-color:#DEDEDE;
 
+height: 400px;
+}
+.showcase img {
+   display: inline;
+    height: 400px;
+    margin-left: 3em;
+  
+}
+.h-text {
+    justify-content: right;
+    width: 700px;
+    padding: 1em 0 0 10em;
+    text-align: left;
+    display: inline-block;
+    font-size: 1.5rem;
+    
+}
+.h-text p {
+    padding-top: 2em;
+    font-size: 00.5em;
+}
+.btn {
+   
+    margin-top: 2em;
+    display: block;
+    height: 3em;
+    width: 10em;
+    background-color:#25E6C8 ;
+    color: white;
+    border-radius: 8px;
+    border-color: transparent;
+    box-shadow: transparent;
+}
 
 
 
@@ -108,6 +144,15 @@
     display: block;
     text-align: center;
     margin-top: 2em;
+}
+.showcase {
+    background: #DEDEDE;
+}
+.showcase img {
+    display: none;
+}
+.h-text {
+    text-align: left;
 }
 }
     
