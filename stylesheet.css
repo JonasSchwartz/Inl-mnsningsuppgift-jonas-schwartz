@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-nav {
+    border: 1px solid black;
+    padding: 2em;
+    display: block;
+    
+}
+.hours {
+    justify-content: left;
+    display: flex;
+}
+.hours p {
+    margin-left: 10px;
+}
+.bilder {
+    display: flex;
+   text-align: right;
+   justify-content: right;
+}
+.bilder i {
+    font-size: 1.5rem;
+   justify-content: center;
+}
+.bilder i:hover {
+    color: #25e6c8;
+
+}
