@@ -26,14 +26,15 @@
 .social-logos {
     
     position: relative; 
-    top: -35px;
-   margin-right: 4em;
+    top: -45px;
+    margin-right: 4em;
     justify-content: right;
     text-align: right;
 }
 .social-logos i {
     justify-content: space-between;
     color: #2bAAEC;
+    padding: .5em;    
 }
 
 
@@ -58,7 +59,7 @@
     text-align: right;
 }
 .list ul {
-    font-size: 1.5rem;
+    font-size: 1rem;
     list-style-type: none;
     position: relative; 
     top: -65px;
@@ -74,9 +75,10 @@
     color: #25E6C8;
 }
 .showcase {
+justify-content: center;
 display: flex;
 background-color:#DEDEDE;
-
+margin: auto;
 height: 400px;
 }
 .showcase img {
@@ -87,8 +89,8 @@ height: 400px;
 }
 .h-text {
     justify-content: right;
-    width: 700px;
-    padding: 1em 0 0 10em;
+    width: 500px;
+    padding: 1em 0 0 1em;
     text-align: left;
     display: inline-block;
     font-size: 1.5rem;
@@ -107,15 +109,45 @@ height: 400px;
     background-color:#25E6C8 ;
     color: white;
     border-radius: 8px;
-    border-color: transparent;
+    
     box-shadow: transparent;
 }
 
-
-
-
-
-
+.about-us {
+    display: absolute;
+    border: 1px solid black;
+    justify-content: center;
+    width: 500px;
+    padding: 4em 0 0 4em;
+}
+.about-us span {
+    
+    color: #2bAAEC;
+} 
+.about-us hr {
+    background-color: #25E6C8;
+    margin-top: 1em ;
+    border: 2px solid #25E6C8;
+    justify-content: left;
+    text-align: center;
+    
+    }
+.about-us p {
+    
+    margin-top: 1em;
+    font-size: 1rem;
+    
+}
+.about-us #bild {
+    border: 1px solid red;
+    display: relative;
+    height: 200px;
+    justify-content: right;
+}
+    #grid-section {
+        text-align: block;
+       
+    }
 
 
 @media screen and (max-width: 760px) {
@@ -141,7 +173,7 @@ height: 400px;
     color: #25E6C8;
 }
 .logo {
-    display: block;
+    display: flex;
     text-align: center;
     margin-top: 2em;
 }
@@ -152,7 +184,22 @@ height: 400px;
     display: none;
 }
 .h-text {
+    margin-right: 20px;
+    text-align: center;
+}
+.about-us {
+    display: none;
+    background-color: #eee;
+    font-size: 1rem;
+   
     text-align: left;
+}
+
+.about-us hr {
+    display: none;
+}
+.about-us img {
+    display: none;
 }
 }
     
