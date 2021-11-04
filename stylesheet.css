@@ -66,6 +66,7 @@
     display: flex;
     text-align: right;
     justify-content: right;
+    
 }
 .list li {
     margin: 10px;
@@ -96,6 +97,9 @@ height: 400px;
     font-size: 1.5rem;
     
 }
+.showcase h1 {
+    font-weight: lighter;
+}
 .h-text p {
     padding-top: 2em;
     font-size: 00.5em;
@@ -115,7 +119,7 @@ height: 400px;
 
 .about-us {
     display: absolute;
-    border: 1px solid black;
+   
     justify-content: center;
     width: 500px;
     padding: 4em 0 0 4em;
@@ -124,30 +128,73 @@ height: 400px;
     
     color: #2bAAEC;
 } 
+.container {
+display: flex;
+text-align: center;
+justify-content: left;
+}
 .about-us hr {
     background-color: #25E6C8;
-    margin-top: 1em ;
+    margin: 1em 0 0 2.8em ;
     border: 2px solid #25E6C8;
     justify-content: left;
-    text-align: center;
+    width: 100%;
     
     }
+   .about-us h1 {
+       font-weight: lighter;
+   }
+    
 .about-us p {
     
     margin-top: 1em;
     font-size: 1rem;
     
 }
-.about-us #bild {
-    border: 1px solid red;
-    display: relative;
-    height: 200px;
+ #about-us-bild {
+    
+    float: right;
+    height: 400px;
     justify-content: right;
+    margin-left: 3rem;
 }
-    #grid-section {
-        text-align: block;
-       
-    }
+    .table-group {
+        display: block;
+       margin-left: 5em;
+       text-align: center;
+}
+
+.table-group #nr {
+    
+    color: #2bAAEC;
+}
+.table-group #text {
+    padding: 5px;
+}
+
+
+.our-services {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+   background-color: #f7f7f7;
+    
+    
+}
+.our-services h1 {
+    font-weight: lighter;
+}
+.our-services hr{
+    margin-right: auto;
+    margin-left:auto ;
+    justify-content: center;
+    text-align: center;
+    background-color: #25E6C8;
+    display: flex;
+    width: 25%;
+    
+    border: 2px solid #25E6C8;
+}
 
 
 @media screen and (max-width: 760px) {
@@ -164,17 +211,17 @@ height: 400px;
 }
 .list  {
     padding-top: 4.5em;
-    display: block;
-    justify-content: space-between;
-    text-align: center;
+    display: none;
+    
+    text-align: inline  ;
 }
 .list li:hover{
     cursor: pointer;
     color: #25E6C8;
 }
 .logo {
-    display: flex;
-    text-align: center;
+    display: block;
+    text-align: left;
     margin-top: 2em;
 }
 .showcase {
