@@ -111,10 +111,10 @@ height: 400px;
     height: 3em;
     width: 10em;
     background-color:#25E6C8 ;
-    color: white;
-    border-radius: 8px;
     
-    box-shadow: transparent;
+    border-radius: 8px;
+    border-color: none;
+    
 }
 
 .about-us {
@@ -177,7 +177,7 @@ justify-content: left;
     margin-top: 20px;
     text-align: center;
     justify-content: center;
-   background-color: #f7f7f7;
+  
     
     
 }
@@ -195,6 +195,243 @@ justify-content: left;
     
     border: 2px solid #25E6C8;
 }
+.card-container {
+    width: 80%;
+    margin: 1em auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem   ;
+}
+.card-1 {
+    height: 250px;
+    width: 200px;
+    
+    background-color: white;
+    position: relative;
+
+}
+
+.card-body {
+    
+    position: absolute;
+    margin-top: 40px;
+    text-align: center;
+    top: 4em;
+}
+
+.circle-1 {
+    border-radius: 50%;
+    top: 4em;
+    left: 6em;
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    background-color: #25e6c8;
+    transform: translate(-50%,-50%);
+}
+
+.circle-1:hover{
+    background-color: #2bAAEC;
+}
+
+
+
+.avatar-1 {
+    background-image: url(./Bilder/toothicon-1.png);
+    width: 30px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    box-sizing: 50%;
+    position:absolute ;
+    left: 6em;
+    top: 4em;
+    
+    transform: translate(-50%,-50%);
+
+}
+
+
+
+
+.card-2 {
+    height: 250px;
+    width: 200px;
+    
+    background-color: white;
+    position: relative;
+
+}
+.avatar-2 {
+    background-image: url(./Bilder/toothicaon-2.png);
+    width: 30px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    box-sizing: 50%;
+    position:absolute ;
+    left: 6em;
+    top: 4em;
+    
+    transform: translate(-50%,-50%);
+
+}
+.circle-2 {
+    border-radius: 50%;
+    top: 4em;
+    left: 6em;
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    background-color: #25e6c8;
+    transform: translate(-50%,-50%);
+}
+
+.card-3 {
+    height: 250px;
+    width: 200px;
+    
+    background-color: white;
+    position: relative;
+
+}
+.avatar-3 {
+    background-image: url(./Bilder/toothicon-3.png);
+    width: 30px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    box-sizing: 50%;
+    position:absolute ;
+    left: 6em;
+    top: 4em;
+    
+    transform: translate(-50%,-50%);
+
+}
+.circle-3 {
+    border-radius: 50%;
+    top: 4em;
+    left: 6em;
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    background-color: #25e6c8;
+    transform: translate(-50%,-50%);
+}
+.card-4 {
+    height: 250px;
+    width: 200px;
+    
+    background-color: white;
+    position: relative;
+
+}
+.avatar-4 {
+    background-image: url(./Bilder/toothicon-4.png);
+    width: 30px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    box-sizing: 50%;
+    position:absolute ;
+    left: 6em;
+    top: 4em;
+    
+    transform: translate(-50%,-50%);
+
+}
+.circle-4 {
+    border-radius: 50%;
+    top: 4em;
+    left: 6em;
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    background-color: #25e6c8;
+    transform: translate(-50%,-50%);
+}
+
+.card-5 {
+    height: 250px;
+    width: 200px;
+    
+    background-color: white;
+    position: relative;
+
+}
+.avatar-5 {
+    background-image: url(./Bilder/toothicon-5.png);
+    width: 30px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    box-sizing: 50%;
+    position:absolute ;
+    left: 6em;
+    top: 4em;
+    
+    transform: translate(-50%,-50%);
+
+}
+.circle-5 {
+    border-radius: 50%;
+    top: 4em;
+    left: 6em;
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    background-color: #25e6c8;
+    transform: translate(-50%,-50%);
+}
+.card-6 {
+    height: 250px;
+    width: 200px;
+    
+    background-color: white;
+    position: relative;
+
+}
+.avatar-6 {
+    background-image: url(./Bilder/toothicon-6.png);
+    width: 30px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    box-sizing: 50%;
+    position:absolute ;
+    left: 6em;
+    top: 4em;
+    
+    transform: translate(-50%,-50%);
+
+}
+.circle-6 {
+    border-radius: 50%;
+    top: 4em;
+    left: 6em;
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    background-color: #25e6c8;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 760px) {
