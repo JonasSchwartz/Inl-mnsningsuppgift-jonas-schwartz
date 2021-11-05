@@ -170,7 +170,7 @@ margin-right: 4em;
         justify-content: left;
         display: flex;
         justify-content:left;
-       margin-left: 30em;
+       margin-left:28em;
 }
 
 .table-group #nr {
@@ -207,15 +207,14 @@ margin-right: 4em;
     border: 2px solid #25E6C8;
 }
 .card-container {
-   
-    width: 80%;
-    margin-left: auto;
+    margin-left: 30em;
+    align-items: center;
     padding-top: 5em;
     justify-content: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: .5fr .5fr 1fr;
     align-content: center;
-    padding-bottom: 5em;
+    padding-bottom: 10em;
 }
 .card-1 {
     
@@ -458,7 +457,7 @@ margin-right: 4em;
 .appointment-container button {
     border-radius: 10px;
     width: 10em;
-    height: 2em;
+    height: 3em;
     margin-right: 8em;
     background-color: white;
     border-color: transparent;
@@ -485,43 +484,65 @@ margin-right: 4em;
     }
 
 .social-logos {
-    display: none;
+    margin-top: 2em;
+    text-align: center;
+    justify-content: center
+    display: flex;
+    align-content: center;
 }
 .hours {
-    display: none;
+    justify-content: center;
+    display: flex;
 }
 .list  {
     padding-top: 4.5em;
-    display: none;
+    display: block;
     
-    text-align: inline  ;
+    text-align: inline ;
 }
 .list li:hover{
     cursor: pointer;
     color: #25E6C8;
 }
 .logo {
-    display: block;
-    text-align: left;
+    display: flex;
+    justify-content: center;
+    text-align: center;
     margin-top: 2em;
 }
-.showcase {
-    background: #DEDEDE;
+.logo:hover {
+    cursor: pointer;
+}
+.showcase  {
+    align-self: center;
+    justify-content: left;
+    background: #707070;
 }
 .showcase img {
-    display: none;
+    justify-content: left;
+    align-content: left;
+    display: flex;
 }
 .h-text {
+    display: none;
+    justify-content: left;
     margin-right: 20px;
     text-align: center;
 }
-.about-us {
+#about-us-bild {
     display: none;
     background-color: #eee;
     font-size: 1rem;
    
     text-align: left;
 }
+.table-group  {
+    align-items:  left;
+    justify-content:left;
+    display: none;
+ 
+}
+
 
 .about-us hr {
     display: none;
@@ -529,5 +550,28 @@ margin-right: 4em;
 .about-us img {
     display: none;
 }
-}
-    
+
+    .card-container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 5em;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-content: center;
+        padding-bottom: 5em;
+    }
+    .appointment-container {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .appointment-container button {
+       align-content: right;
+        justify-content: center;
+        width: 10em;
+        font-weight: bold;
+    }
+    .appointment-container button:hover {
+        cursor: pointer;
+    }
