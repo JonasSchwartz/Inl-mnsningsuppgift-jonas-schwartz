@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif; ;
     
 }
+
+
+
+
 .top-menu {
     display: block;
     border: 1px solid #707070;
@@ -208,42 +212,39 @@ margin-right: 4em;
 }
 .card-container {
     margin-left: 30em;
-    align-items: center;
+    align-items: right  ;
     padding-top: 5em;
-    justify-content: center;
+    justify-content: space-evenly;
     display: grid;
     grid-template-columns: .5fr .5fr 1fr;
     align-content: center;
     padding-bottom: 10em;
 }
-.card-1 {
-    
-    height: 250px;
-    width: 200px;
-    
-    background-color: white;
-    position: relative;
-
-}
-
-.card-1-container {
-     width: fit-content;
-   ;
-}
-
 .card-body {
     
     position: absolute;
-    margin-top: 25px;
+    margin-top: 45px;
     text-align: center;
     top: 6em;
     margin-bottom: 4em;
 }
 
 .card-body h4 {
-    font-weight: lighter;
+    font-weight:500;
 }
 
+.card-1 {
+    
+    height: 350px;
+    width: 200px;
+    background-color: white;
+    position: relative;
+
+}
+.card-1:hover {
+   
+    box-shadow:2px 2px 2px 2px grey;
+}
 
 .avatar-1 {
     background-image: url(./Bilder/toothicon-1.png);
@@ -259,7 +260,9 @@ margin-right: 4em;
    
     transform: translate(-50%,-50%);
 
-} .circle-1 {
+} 
+
+.circle-1 {
     border-radius: 50%;
     top: 4em;
     left: 6em;
@@ -269,15 +272,22 @@ margin-right: 4em;
     background-color: #25e6c8;
     transform: translate(-50%,-50%);
 }
-
+.circle-1:hover {
+    
+    background-color: #5225e6;
+}
 
 .card-2 {
-    height: 250px;
+    height: 350px;
     width: 200px;
     
     background-color: white;
     position: relative;
 
+}
+.card-2:hover {
+   
+    box-shadow:2px 2px 2px 2px grey;
 }
 .avatar-2 {
     background-image: url(./Bilder/toothicaon-2.png);
@@ -306,12 +316,16 @@ margin-right: 4em;
 }
 
 .card-3 {
-    height: 250px;
+    height: 350px;
     width: 200px;
     
     background-color: white;
     position: relative;
 
+}
+.card-3:hover {
+   
+    box-shadow:2px 2px 2px 2px grey;
 }
 .avatar-3 {
     background-image: url(./Bilder/toothicon-3.png);
@@ -339,12 +353,16 @@ margin-right: 4em;
     transform: translate(-50%,-50%);
 }
 .card-4 {
-    height: 250px;
+    height: 350px;
     width: 200px;
-    
+    margin-top: 3em;
     background-color: white;
     position: relative;
 
+}
+.card-4:hover {
+   
+    box-shadow:2px 2px 2px 2px grey;
 }
 .avatar-4 {
     background-image: url(./Bilder/toothicon-4.png);
@@ -373,12 +391,16 @@ margin-right: 4em;
 }
 
 .card-5 {
-    height: 250px;
+    height: 350px;
     width: 200px;
-    
+    margin-top: 3rem;
     background-color: white;
     position: relative;
 
+}
+.card-5:hover {
+   
+    box-shadow:2px 2px 2px 2px grey;
 }
 .avatar-5 {
     background-image: url(./Bilder/toothicon-5.png);
@@ -406,12 +428,16 @@ margin-right: 4em;
     transform: translate(-50%,-50%);
 }
 .card-6 {
-    height: 250px;
+    height: 350px;
     width: 200px;
-    
+    margin-top: 3rem;
     background-color: white;
     position: relative;
 
+}
+.card-6:hover {
+   
+    box-shadow:2px 2px 2px 2px grey;
 }
 
 .avatar-6 {
@@ -463,6 +489,13 @@ margin-right: 4em;
     border-color: transparent;
     color:#2bAAEC
 }
+.appointment-container button:hover {
+    background-color: #2bAAEC;
+    color: white;
+    border:1px solid white;
+}
+
+
 .footer-container {
     height: 2em;
     background-color: #2bAAEC;
@@ -479,6 +512,7 @@ margin-right: 4em;
 
 @media screen and (max-width: 760px) {
 
+
     .top-menu {
         border: none;
     }
@@ -486,9 +520,9 @@ margin-right: 4em;
 .social-logos {
     margin-top: 2em;
     text-align: center;
-    justify-content: center
-    display: flex;
-    align-content: center;
+    justify-content: center;
+    display: absolute;
+    align-items: center;
 }
 .hours {
     justify-content: center;
@@ -553,13 +587,19 @@ margin-right: 4em;
 
     .card-container {
         margin-right: auto;
-        margin-left: auto;
+        margin-left: 2em;
         padding-top: 5em;
-        justify-content: center;
+        justify-content: left;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-content: center;
+        grid-template-columns:  1fr 1fr;
+        align-content: left ;
         padding-bottom: 5em;
+    }
+    .card-3 {
+        display: none;
+    }
+    .card-6 {
+        display: none;
     }
     .appointment-container {
         display: flex;
@@ -575,3 +615,4 @@ margin-right: 4em;
     .appointment-container button:hover {
         cursor: pointer;
     }
+}
