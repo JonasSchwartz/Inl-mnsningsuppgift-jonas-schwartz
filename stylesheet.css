@@ -210,12 +210,12 @@ section {
     text-align: center;
     background-color: #25E6C8;
     display: flex;
-    width: 25%;
-    
+    width:15%;
+    margin-top: 1em;
     border: 2px solid #25E6C8;
 }
 .card-container {
-    gap: 3em;
+    gap: 1em;
     margin-left: 30em;
     align-items: right  ;
     padding-top: 5em;
@@ -239,7 +239,7 @@ section {
 }
 
 .card-1 {
-    
+    border-radius: 10px;
     height: 350px;
     width: 300px;
     background-color: white;
@@ -289,7 +289,7 @@ section {
 .card-2 {
     height: 350px;
     width: 300px;
-    
+    border-radius: 10px;
     background-color: white;
     position: relative;
 
@@ -327,7 +327,7 @@ section {
 .card-3 {
     height: 350px;
     width: 300px;
-    
+    border-radius: 10px;
     background-color: white;
     position: relative;
 
@@ -367,7 +367,7 @@ section {
     margin-top: 3em;
     background-color: white;
     position: relative;
-
+    border-radius: 10px;
 }
 .card-4:hover {
     
@@ -405,7 +405,7 @@ section {
     margin-top: 3rem;
     background-color: white;
     position: relative;
-
+    border-radius: 10px;
 }
 .card-5:hover {
     
@@ -442,7 +442,7 @@ section {
     margin-top: 3rem;
     background-color: white;
     position: relative;
-
+    border-radius: 10px;
 }
 .card-6:hover {
     
