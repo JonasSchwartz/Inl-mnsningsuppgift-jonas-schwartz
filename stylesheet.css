@@ -187,6 +187,9 @@ margin-right: 4em;
     padding: 5px;
 }
 
+section {
+    background-color: #f7f7f7;
+}
 
 .our-services {
     margin-top: 8em;
@@ -197,6 +200,7 @@ margin-right: 4em;
     
 }
 .our-services h1 {
+    padding: 3em 0 0 0;
     font-weight: lighter;
 }
 .our-services hr{
@@ -211,6 +215,7 @@ margin-right: 4em;
     border: 2px solid #25E6C8;
 }
 .card-container {
+    gap: 3em;
     margin-left: 30em;
     align-items: right  ;
     padding-top: 5em;
@@ -218,7 +223,7 @@ margin-right: 4em;
     display: grid;
     grid-template-columns: .5fr .5fr 1fr;
     align-content: center;
-    padding-bottom: 10em;
+    padding-bottom: 8em;
 }
 .card-body {
     
@@ -236,14 +241,18 @@ margin-right: 4em;
 .card-1 {
     
     height: 350px;
-    width: 200px;
+    width: 300px;
     background-color: white;
     position: relative;
-
+    transition:ease-in-out;
+   
 }
 .card-1:hover {
    
-    box-shadow:2px 2px 2px 2px grey;
+    
+   
+     box-shadow:2px 2px 2px 2px grey;
+ 
 }
 
 .avatar-1 {
@@ -254,8 +263,8 @@ margin-right: 4em;
     background-size: contain;
     background-position: center center;
     box-sizing: 50%;
-    position:absolute ;
-    left: 6em;
+    position:relative ;
+    left: 9em;
     top: 4em;
    
     transform: translate(-50%,-50%);
@@ -265,7 +274,7 @@ margin-right: 4em;
 .circle-1 {
     border-radius: 50%;
     top: 4em;
-    left: 6em;
+    left: 9em;
     position:absolute;
     height: 100px;
     width: 100px;
@@ -279,14 +288,14 @@ margin-right: 4em;
 
 .card-2 {
     height: 350px;
-    width: 200px;
+    width: 300px;
     
     background-color: white;
     position: relative;
 
 }
 .card-2:hover {
-   
+    
     box-shadow:2px 2px 2px 2px grey;
 }
 .avatar-2 {
@@ -298,7 +307,7 @@ margin-right: 4em;
     background-position: center center;
     box-sizing: 50%;
     position:absolute ;
-    left: 6em;
+    left: 9em;
     top: 4em;
     
     transform: translate(-50%,-50%);
@@ -307,7 +316,7 @@ margin-right: 4em;
 .circle-2 {
     border-radius: 50%;
     top: 4em;
-    left: 6em;
+    left: 9em;
     position:absolute;
     height: 100px;
     width: 100px;
@@ -317,14 +326,14 @@ margin-right: 4em;
 
 .card-3 {
     height: 350px;
-    width: 200px;
+    width: 300px;
     
     background-color: white;
     position: relative;
 
 }
 .card-3:hover {
-   
+    
     box-shadow:2px 2px 2px 2px grey;
 }
 .avatar-3 {
@@ -336,7 +345,7 @@ margin-right: 4em;
     background-position: center center;
     box-sizing: 50%;
     position:absolute ;
-    left: 6em;
+    left: 9em;
     top: 4em;
     
     transform: translate(-50%,-50%);
@@ -345,7 +354,7 @@ margin-right: 4em;
 .circle-3 {
     border-radius: 50%;
     top: 4em;
-    left: 6em;
+    left: 9em;
     position:absolute;
     height: 100px;
     width: 100px;
@@ -354,14 +363,14 @@ margin-right: 4em;
 }
 .card-4 {
     height: 350px;
-    width: 200px;
+    width: 300px;
     margin-top: 3em;
     background-color: white;
     position: relative;
 
 }
 .card-4:hover {
-   
+    
     box-shadow:2px 2px 2px 2px grey;
 }
 .avatar-4 {
@@ -373,7 +382,7 @@ margin-right: 4em;
     background-position: center center;
     box-sizing: 50%;
     position:absolute ;
-    left: 6em;
+    left: 9em;
     top: 4em;
     
     transform: translate(-50%,-50%);
@@ -382,7 +391,7 @@ margin-right: 4em;
 .circle-4 {
     border-radius: 50%;
     top: 4em;
-    left: 6em;
+    left: 9em;
     position:absolute;
     height: 100px;
     width: 100px;
@@ -392,14 +401,14 @@ margin-right: 4em;
 
 .card-5 {
     height: 350px;
-    width: 200px;
+    width: 300px;
     margin-top: 3rem;
     background-color: white;
     position: relative;
 
 }
 .card-5:hover {
-   
+    
     box-shadow:2px 2px 2px 2px grey;
 }
 .avatar-5 {
@@ -411,7 +420,7 @@ margin-right: 4em;
     background-position: center center;
     box-sizing: 50%;
     position:absolute ;
-    left: 6em;
+    left: 9em;
     top: 4em;
     
     transform: translate(-50%,-50%);
@@ -420,7 +429,7 @@ margin-right: 4em;
 .circle-5 {
     border-radius: 50%;
     top: 4em;
-    left: 6em;
+    left: 9em;
     position:absolute;
     height: 100px;
     width: 100px;
@@ -429,14 +438,14 @@ margin-right: 4em;
 }
 .card-6 {
     height: 350px;
-    width: 200px;
+    width: 300px;
     margin-top: 3rem;
     background-color: white;
     position: relative;
 
 }
 .card-6:hover {
-   
+    
     box-shadow:2px 2px 2px 2px grey;
 }
 
@@ -449,7 +458,7 @@ margin-right: 4em;
     background-position: center center;
     box-sizing: 50%;
     position:absolute ;
-    left: 6em;
+    left: 9em;
     top: 4em;
     
     transform: translate(-50%,-50%);
@@ -459,7 +468,7 @@ margin-right: 4em;
 
     border-radius: 50%;
     top: 4em;
-    left: 6em;
+    left: 9em;
     position:absolute;
     height: 100px;
     width: 100px;
@@ -510,7 +519,7 @@ margin-right: 4em;
 
 
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 769px) {
 
 
     .top-menu {
@@ -586,21 +595,16 @@ margin-right: 4em;
 }
 
     .card-container {
-        margin-right: auto;
-        margin-left: 2em;
+      
+        margin-left: auto;
         padding-top: 5em;
-        justify-content: left;
-        display: grid;
-        grid-template-columns:  1fr 1fr;
-        align-content: left ;
+        justify-content: center;
+        display: flex;flex-direction: column;flex-wrap: wrap;
+        grid-template-columns:  1fr;
+        align-content: center ;
         padding-bottom: 5em;
     }
-    .card-3 {
-        display: none;
-    }
-    .card-6 {
-        display: none;
-    }
+ 
     .appointment-container {
         display: flex;
         justify-content: center;
