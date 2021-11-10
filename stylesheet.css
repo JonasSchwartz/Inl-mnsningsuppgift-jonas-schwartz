@@ -247,7 +247,12 @@ section {
     
     
 }
-.card-1:hover {
+.card-1:hover  {
+   box-shadow:7px 7px 7px 7px grey;
+ 
+}
+.card-1:hover > .circle-1  {
+    background-color: #5225e6;
    box-shadow:7px 7px 7px 7px grey;
  
 }
@@ -278,10 +283,7 @@ section {
     background-color: #25e6c8;
     transform: translate(-50%,-50%);
 }
-.circle-1:hover {
-    
-    background-color: #5225e6;
-}
+
 
 .card-2 {
     height: 350px;
@@ -295,6 +297,14 @@ section {
     
     box-shadow:7px 7px 7px 7px grey;
 }
+.card-2:hover > .circle-2  {
+    background-color: #5225e6;
+   box-shadow:7px 7px 7px 7px grey;
+ 
+}
+
+
+
 .avatar-2 {
     background-image: url(./Bilder/toothicaon-2.png);
     width: 75px;
@@ -333,6 +343,11 @@ section {
     
     box-shadow:7px 7px 7px 7px grey;
 }
+.card-3:hover > .circle-3 {
+    background-color: #5225e6;
+   box-shadow:7px 7px 7px 7px grey;
+ 
+}
 .avatar-3 {
     background-image: url(./Bilder/toothicon-3.png);
     width: 75px;
@@ -369,6 +384,11 @@ section {
 .card-4:hover {
     
     box-shadow:7px 7px 7px 7px grey;
+}
+.card-4:hover > .circle-4  {
+    background-color: #5225e6;
+   box-shadow:7px 7px 7px 7px grey;
+ 
 }
 .avatar-4 {
     background-image: url(./Bilder/toothicon-4.png);
@@ -408,6 +428,11 @@ section {
     
     box-shadow:7px 7px 7px 7px grey;
 }
+.card-5:hover > .circle-5  {
+    background-color: #5225e6;
+   box-shadow:7px 7px 7px 7px grey;
+ 
+}
 .avatar-5 {
     background-image: url(./Bilder/toothicon-5.png);
     width: 75px;
@@ -444,6 +469,11 @@ section {
 .card-6:hover {
     
     box-shadow:7px 7px 7px 7px grey;
+}
+.card-6:hover > .circle-6  {
+    background-color: #5225e6;
+   box-shadow:7px 7px 7px 7px grey;
+ 
 }
 
 .avatar-6 {
