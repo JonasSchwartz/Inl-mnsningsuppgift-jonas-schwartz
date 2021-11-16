@@ -12,7 +12,7 @@
 .top-menu {
     display: block;
     border: 1px solid #707070;
-    width: 100%;
+    max-width: 100%;
 }
 .hours {
     display: inline-flex;
@@ -171,10 +171,14 @@ margin-right: 4em;
     
 }
     .table-group {
-        justify-content: left;
-        display: flex;
-        justify-content:left;
-       margin-left:28em;
+        position: absolute;
+        justify-content: center;
+        display: inline;
+        justify-content:center;
+        align-content: center;
+        margin-left: 13em;
+        
+       
 }
 
 .table-group #nr {
@@ -192,6 +196,7 @@ section {
 }
 
 .our-services {
+    max-width: 100%;
     margin-top: 8em;
     text-align: center;
     justify-content: center;
@@ -216,13 +221,14 @@ section {
 }
 .card-container {
     gap: 1em;
-    margin-left: 30em;
-    align-items: right  ;
+    margin-left: 10em;
+    max-width: 100%;
+    align-items: center  ;
     padding-top: 5em;
-    justify-content: space-evenly;
+    justify-content: center;
     display: grid;
     grid-template-columns: .5fr .5fr 1fr;
-    align-content: center;
+   
     padding-bottom: 8em;
 }
 .card-body {
@@ -565,10 +571,12 @@ section {
     display: flex;
 }
 .list  {
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 4.5em;
-    display: block;
-    
-    text-align: inline ;
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
 .list li:hover{
     cursor: pointer;
