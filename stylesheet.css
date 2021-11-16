@@ -552,7 +552,7 @@ section {
 
 
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
 
 
     .top-menu {
@@ -561,10 +561,10 @@ section {
 
 .social-logos {
     margin-top: 2em;
-    text-align: center;
-    justify-content: center;
-    display: absolute;
+     justify-content: center;
+    display: flex;
     align-items: center;
+   
 }
 .hours {
     justify-content: center;
