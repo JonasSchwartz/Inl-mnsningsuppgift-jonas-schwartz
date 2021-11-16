@@ -171,12 +171,12 @@ margin-right: 4em;
     
 }
     .table-group {
-        position: absolute;
+        position: relative;
         justify-content: center;
-        display: inline;
+        display: flex;
         justify-content:center;
-        align-content: center;
-        margin-left: 13em;
+        align-items: center;
+        margin-right: 40em;
         
        
 }
@@ -221,7 +221,7 @@ section {
 }
 .card-container {
     gap: 1em;
-    margin-left: 10em;
+    margin-left: 26em;
     max-width: 100%;
     align-items: center  ;
     padding-top: 5em;
