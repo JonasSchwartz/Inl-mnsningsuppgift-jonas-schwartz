@@ -9,6 +9,8 @@
 
 
 
+    
+
 .top-menu {
     display: block;
     border: 1px solid #707070;
@@ -80,6 +82,7 @@
 }
 
 .showcase {
+    max-width: 100%;
 justify-content: center;
 display: flex;
 background-color:#DEDEDE;
@@ -110,7 +113,7 @@ height: 400px;
     font-weight: lighter;
 }
 .btn {
-    
+   
    font-weight: bold;
     margin-top: 2em;
     display: block;
@@ -171,17 +174,13 @@ margin-right: 4em;
     
 }
     .table-group {
-        position: relative;
-        justify-content: center;
-        display: flex;
-        justify-content:center;
-        align-items: center;
-        margin-right: 40em;
+     
+    }    
         
-       
-}
+ 
 
 .table-group #nr {
+    position: relative;
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
@@ -220,10 +219,10 @@ section {
     border: 2px solid #25E6C8;
 }
 .card-container {
+    
     gap: 1em;
-    margin-left: 26em;
-    max-width: 100%;
-    align-items: center  ;
+  
+  margin-left: 15em;
     padding-top: 5em;
     justify-content: center;
     display: grid;
@@ -549,7 +548,35 @@ section {
     color: rgba(255, 255, 255, 0.767);
 }
 
-
+@media screen and (max-width:1024px) {
+    .card-container {
+    
+        gap: 1em;
+      
+      margin-left: 3em;
+        padding-top: 5em;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: .5fr .5fr 1fr;
+       
+        padding-bottom: 8em;
+    }
+    .table-group {
+        margin-left: 20em;
+      }   
+      #about-us-bild {
+   
+        display: none;
+        height: 200px;
+        justify-content: right;
+        
+    } 
+    .showcase .h-text {
+      font-size: large;
+       
+        
+    }
+}
 
 
 @media screen and (max-width: 768px) {
@@ -654,4 +681,10 @@ section {
     .appointment-container button:hover {
         cursor: pointer;
     }
+}
+@media screen and (min-width:1440px) {
+    .table-group {
+        margin-left: 19em;
+    }
+    
 }
