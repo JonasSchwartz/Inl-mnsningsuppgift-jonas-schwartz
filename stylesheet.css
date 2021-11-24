@@ -80,6 +80,13 @@
 .list li {
     margin: 10px;
 }
+.list li:hover {
+    cursor: pointer;
+    color: aqua;
+}
+
+
+
 
 .showcase {
     max-width: 100%;
@@ -555,7 +562,56 @@ section {
     color: rgba(255, 255, 255, 0.767);
 }
 
+@media screen and (max-width:425px) {
+section {
+    width: 100%;
+    background-color:#fdfdfd;
+}
+.card-1 {
+    margin-right: 22em;
+    background-color: #707070;
+   color: white;
+}
 
+.card-2 {
+    margin-right: 22em;
+    background-color: #707070;
+   color: white;
+}
+
+.card-3 {
+    margin-right: 22em;
+    background-color: #707070;
+   color: white;
+}
+
+
+.card-4 {
+    margin-right: 22em;
+    background-color: #707070;
+   color: white;
+}
+
+.card-5 {
+    margin-right: 22em;
+    background-color: #707070;
+   color: white;
+}
+.card-6 {
+    margin-right: 22em;
+    background-color: #707070;
+   color: white;
+}
+
+
+    .social-logos i {
+        display: none;
+    }
+    .showcase {
+        display: none;
+    }
+ 
+}
 
 
 @media screen and (max-width:1024px) {
