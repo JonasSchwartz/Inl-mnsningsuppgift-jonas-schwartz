@@ -167,20 +167,24 @@ margin-right: 4em;
     
 }
  #about-us-bild {
-    
+    margin-top: 16px;
     display: flex;
     height: 400px;
     justify-content: right;
     
 }
     .table-group {
-     
+        display: flex;
+        justify-content:flex-start;
+        margin-left: 28em;
+        
+        
     }    
         
  
 
 .table-group #nr {
-    position: relative;
+   
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
@@ -219,16 +223,19 @@ section {
     border: 2px solid #25E6C8;
 }
 .card-container {
+    margin-left: 25em;
     
+    
+    position: relative;
     gap: 1em;
-  
-  margin-left: 15em;
     padding-top: 5em;
     justify-content: center;
     display: grid;
     grid-template-columns: .5fr .5fr 1fr;
-   
     padding-bottom: 8em;
+   
+   
+    ;
 }
 .card-body {
     
@@ -249,7 +256,7 @@ section {
     width: 300px;
     background-color: white;
     position: relative;
-    
+   
     
 }
 .card-1:hover  {
@@ -381,7 +388,7 @@ section {
 .card-4 {
     height: 350px;
     width: 300px;
-    margin-top: 3em;
+    
     background-color: white;
     position: relative;
     border-radius: 10px;
@@ -424,7 +431,7 @@ section {
 .card-5 {
     height: 350px;
     width: 300px;
-    margin-top: 3rem;
+   
     background-color: white;
     position: relative;
     border-radius: 10px;
@@ -466,7 +473,7 @@ section {
 .card-6 {
     height: 350px;
     width: 300px;
-    margin-top: 3rem;
+    
     background-color: white;
     position: relative;
     border-radius: 10px;
@@ -548,29 +555,24 @@ section {
     color: rgba(255, 255, 255, 0.767);
 }
 
+
+
+
 @media screen and (max-width:1024px) {
     .card-container {
-    
-        gap: 1em;
-      
-      margin-left: 3em;
-        padding-top: 5em;
         justify-content: center;
+        gap: 1em;
+        padding-top: 5em;
         display: grid;
-        grid-template-columns: .5fr .5fr 1fr;
-       
+        grid-template-columns: .5fr .5fr ;
         padding-bottom: 8em;
     }
     .table-group {
-        margin-left: 20em;
+      position: absolute;
+      
+       
       }   
-      #about-us-bild {
    
-        display: none;
-        height: 200px;
-        justify-content: right;
-        
-    } 
     .showcase .h-text {
       font-size: large;
        
@@ -658,7 +660,7 @@ section {
 
     .card-container {
       
-        margin-left: auto;
+        
         padding-top: 5em;
         justify-content: center;
         display: flex;flex-direction: column;flex-wrap: wrap;
@@ -682,9 +684,15 @@ section {
         cursor: pointer;
     }
 }
-@media screen and (min-width:1440px) {
+
+
+@media screen and (max-width:1440px) {
     .table-group {
-        margin-left: 19em;
+        margin-left: 18em;
     }
-    
+.card-container {
+    gap: 1em;
+    position: relative;
+    margin-right: 24em;
+}
 }
