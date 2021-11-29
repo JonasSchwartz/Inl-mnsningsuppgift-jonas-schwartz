@@ -561,39 +561,56 @@ section {
     text-align: center;
     color: rgba(255, 255, 255, 0.767);
 }
+@media screen and (max-width:375px) {
+section {
+    width: 120%;
+}
+
+    .list ul {
+        display: block;
+    }
+    .list ul li {
+       
+        text-align: center;
+    }
+  .card-1 {
+      margin-right: 24em;
+  }
+ 
+}
+
+
+
 
 @media screen and (max-width:425px) {
-section {
-    width: 100%;
-    background-color:#fdfdfd;
-}
+
 .card-1 {
-    margin-right: 22em;
+    
     background-color: #707070;
    color: white;
 }
 
 .card-2 {
-    margin-right: 22em;
+    
     background-color: #707070;
    color: white;
 }
 
 .card-3 {
-    margin-right: 22em;
+   
     background-color: #707070;
    color: white;
 }
 
 
 .card-4 {
-    margin-right: 22em;
+   
     background-color: #707070;
    color: white;
 }
 
 .card-5 {
-    margin-right: 22em;
+    
     background-color: #707070;
    color: white;
 }
