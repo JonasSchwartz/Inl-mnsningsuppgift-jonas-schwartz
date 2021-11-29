@@ -562,9 +562,7 @@ section {
     color: rgba(255, 255, 255, 0.767);
 }
 @media screen and (max-width:375px) {
-section {
-    width: 120%;
-}
+
 
     .list ul {
         display: block;
@@ -574,9 +572,11 @@ section {
         text-align: center;
     }
   .card-1 {
-      margin-right: 24em;
+      margin-right: 25em;
   }
- 
+.appointment-container #btn {
+    margin-left: 3em;
+}
 }
 
 
@@ -717,8 +717,7 @@ section {
     text-align: left;
 }
 .table-group  {
-    align-items:  left;
-    justify-content:left;
+    
     display: none;
  
 }
@@ -755,6 +754,9 @@ section {
     }
     .appointment-container button:hover {
         cursor: pointer;
+    }
+    .appointment-container #btn {
+        margin-left: 3em;
     }
 }
 
